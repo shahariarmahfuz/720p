@@ -22,7 +22,7 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMP_DIR = os.path.join(BASE_DIR, 'temp_processing')
 OUTPUT_HLS_DIR = os.path.join(BASE_DIR, 'output_hls') # Stores final HLS for pickup
-QUALITY_NAME = "360p" # Specific to this converter
+QUALITY_NAME = "720p" # Specific to this converter
 
 # === Status Tracking (In-Memory) ===
 # Structure: { "video_id": {"status": "...", "error": None, "files": []} }
